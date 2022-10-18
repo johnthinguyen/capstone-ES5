@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+}
+header span, header p {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 300;
+  font-style: normal;
+  font-family: "Inter";
+  line-height: 19px;
+  margin: 0 2px;
+}
+header p {
+  color: #F6F6F6;
+  font-size: 16px;
+  font-weight: 200;
+  margin: 0 15px;
+}
+
+.btn1 {
+  background-color: #F8B653;
+  padding: 13px 35px;
+  color: #FFFFFF;
+  border: 2px;
+  border-color: #F8B653;
+}
+
+.carousel {
+  background-image: url(../../image/image\ 6.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.carousel .nav-link, .carousel .navbar-brand {
+  color: black;
+  font-size: 20px;
+}
+.carousel .carousel-item_product h1 {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 48.41px;
+}
+.carousel .icon-one {
+  position: absolute;
+  width: 66.13px;
+  height: 45.71px;
+  left: 18px;
+  top: 241.13px;
+}/*# sourceMappingURL=style.css.map */

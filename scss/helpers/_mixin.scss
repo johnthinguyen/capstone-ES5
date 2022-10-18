@@ -1,0 +1,23 @@
+@mixin margin ($px) {
+    margin: 0 $px;
+}
+
+@mixin btn($padding1 , $padding2, $bg) {
+    padding: $padding;
+    background-color: $bg;
+}
+
+@mixin background-img ($imgage) {
+    background-image: url($imgage);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin position ($w, $h, $l, $t) {
+    position: absolute;
+    width: $w ;
+    height: $h;
+    left: $l;
+    top: $t;
+}

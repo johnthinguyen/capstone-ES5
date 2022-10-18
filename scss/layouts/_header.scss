@@ -1,0 +1,31 @@
+header {
+    background-color: $color-1;
+
+    span {
+        color: $color-3;
+
+        font: {
+            size: $fs-1;
+            weight: $fw-1;
+            style: $fts-1;
+            family: $ff-1
+        }
+
+        line-height: $lh-1;
+
+        @include margin(2px);
+    }
+
+    p {
+        @extend span;
+        color: $color-2;
+
+        font: {
+            size: $fs-2;
+            weight: 200;
+        }
+
+        ;
+        @include margin(15px)
+    }
+}
