@@ -6,12 +6,13 @@
 
     .navbar-brand {
         @extend .nav-link;
-
+        font-weight: $fs-3 ;
+        border-bottom: 1px solid $color-1;
     }
 
     .nav-link {
         color: $color-1 ;
-        font-size: $fs-3;
+        font-size: $fs-3 ;
     }
 
     .carousel-item_product {
@@ -26,9 +27,24 @@
         }
     }
 
-    .icon-one {
+    .icon {
+        .icon-one {
 
-        @include position;
+            @include position(66.13px, 45.71px, 18px, 121.13px);
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)),
+                linear-gradient(0deg, rgba(152, 152, 152, 0), rgba(152, 152, 152, 0));
 
+            border: 1px solid #0000003D;
+
+
+
+        }
+
+        .icon-two {
+            @extend .icon-one;
+            @include position(66.13px, 45.71px, 1367.14px, 121.13px)
+        }
     }
+
+
 }

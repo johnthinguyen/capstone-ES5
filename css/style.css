@@ -5,9 +5,12 @@
 }
 
 header {
+ 
   background-color: black;
 }
-header span, header p {
+
+header span,
+header p {
   color: #FFFFFF;
   font-size: 30px;
   font-weight: 300;
@@ -16,6 +19,7 @@ header span, header p {
   line-height: 19px;
   margin: 0 2px;
 }
+
 header p {
   color: #F6F6F6;
   font-size: 16px;
@@ -23,7 +27,8 @@ header p {
   margin: 0 15px;
 }
 
-.btn1 {
+.btn1,
+.btn2 {
   background-color: #F8B653;
   padding: 13px 35px;
   color: #FFFFFF;
@@ -31,25 +36,202 @@ header p {
   border-color: #F8B653;
 }
 
-.carousel {
+.btn2 {
+  color: black;
+  width: 60%;
+}
+
+.btn3 {
+  background: #DEDDDC;
+  color: black;
+  font-weight: 900;
+  width: 40%;
+  border: 2px;
+  border-color: #DEDDDC;
+}
+
+.btn4,
+.btn5 {
+  height: 50px;
+  width: 50px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  background: #CCCCCC;
+  border: 2px;
+  border-color: #CCCCCC;
+}
+
+.btn5 {
+  background: linear-gradient(180deg, #6181F3 0%, #7C97F5 99.48%);
+  color: #F6F6F6;
+}
+
+.btn6 {
+  width: 175px;
+  height: 64px;
+  background: linear-gradient(270deg, rgba(62, 32, 248, 0.9) 5.14%, #D017EE 89.71%);
+  border: 2px;
+  border-color: linear-gradient(270deg, rgba(62, 32, 248, 0.9) 5.14%, #D017EE 89.71%);
+  color: #F6F6F6;
+}
+
+.carousel,
+.carousel-register,
+.carousel-details {
   background-image: url(../../image/image\ 6.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.carousel .nav-link, .carousel .navbar-brand {
+
+.carousel .navbar-brand,
+.carousel-register .navbar-brand,
+.carousel-details .navbar-brand {
+  font-weight: 20px;
+  border-bottom: 1px solid black;
+}
+
+.carousel .nav-link,
+.carousel-register .nav-link,
+.carousel-details .nav-link,
+.carousel .navbar-brand,
+.carousel-register .navbar-brand,
+.carousel-details .navbar-brand {
   color: black;
   font-size: 20px;
 }
-.carousel .carousel-item_product h1 {
+
+.carousel .carousel-item_product h1,
+.carousel-register .carousel-item_product h1,
+.carousel-details .carousel-item_product h1 {
   font-size: 40px;
   font-weight: 300;
   line-height: 48.41px;
 }
-.carousel .icon-one {
+
+.carousel .icon .icon-one,
+.carousel-register .icon .icon-one,
+.carousel-details .icon .icon-one,
+.carousel .icon .icon-two,
+.carousel-register .icon .icon-two,
+.carousel-details .icon .icon-two {
   position: absolute;
   width: 66.13px;
   height: 45.71px;
   left: 18px;
-  top: 241.13px;
-}/*# sourceMappingURL=style.css.map */
+  top: 121.13px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)), linear-gradient(0deg, rgba(152, 152, 152, 0), rgba(152, 152, 152, 0));
+  border: 1px solid rgba(0, 0, 0, 0.2392156863);
+}
+
+.carousel .icon .icon-two,
+.carousel-register .icon .icon-two,
+.carousel-details .icon .icon-two {
+  position: absolute;
+  width: 66.13px;
+  height: 45.71px;
+  left: 1367.14px;
+  top: 121.13px;
+}
+
+.carousel-details {
+  background-image: none;
+}
+
+.carousel-details .container .row .col-5 .img {
+  background: #F8F8F8;
+  width: 334px;
+  height: 355px;
+}
+
+.carousel-details .container .row .col-5 .img img {
+  width: 220px;
+  height: 156px;
+  margin-top: 109px;
+  margin-left: 57px;
+}
+
+.carousel-details .container .row .col-7 h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 36px;
+  color: black;
+}
+
+.carousel-details .container .row .col-7 p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+}
+
+.carousel-details .container .row .col-7 h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #1ED90E;
+}
+
+.carousel-details .container .row .col-7 .money {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FC0303;
+}
+
+.carousel-details .container .row .col-7 span,
+.carousel-details .container .row .col-7 header p,
+header .carousel-details .container .row .col-7 p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: black;
+}
+
+footer {
+  background-image: url(../../image/image\ 7.png);
+  height: 252px;
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-register {
+  background-image: none;
+}
+
+.carousel-register .register input.form-control {
+  border: 0px;
+  border-bottom: 5px solid;
+  border-color: #AE18E2;
+  font-weight: 400;
+  width: 70%;
+}
+
+.carousel-register .register span,
+.carousel-register .register header p,
+header .carousel-register .register p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.carousel-register .register .input-radio {
+  height: 40px;
+  width: 40px;
+  border-radius: 0px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,30 @@
+.carousel-register {
+    @extend .carousel;
+    background-image: none;
+
+    .register {
+        input.form-control {
+            border: 0px;
+            border-bottom: 5px solid;
+            border-color: #AE18E2;
+            font-weight: 400;
+            width: 70%;
+        }
+
+        span {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 36px;
+        }
+
+        .input-radio {
+
+            height: 40px;
+            width: 40px;
+            border-radius: 0px;
+
+        }
+    }
+}

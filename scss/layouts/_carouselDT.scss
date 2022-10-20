@@ -1,0 +1,47 @@
+.carousel-details {
+    @extend .carousel;
+    background-image: none;
+
+    .container {
+        .row {
+            .col-5 {
+
+                .img {
+                    background: $color-5;
+                    width: $w-2;
+                    height: $h-3;
+
+                    img {
+                        width: $w-3;
+                        height: $h-4;
+                        margin-top: $m-2;
+                        margin-left: $m-1;
+                    }
+                }
+            }
+
+            .col-7 {
+                h1 {
+                    @include h1 ($fw-1, $fs-1, $lh-3, $color-1);
+                }
+
+                p {
+                    @include h1($fw-4, $fs-2, $lh-1, $color-1);
+                }
+
+                h2 {
+                    @include h1($fw-5, $fs-5, $lh-5, $color-6);
+                }
+
+                .money {
+                    @include h1($fw-6, $fs-6, $lh-3, $color-7);
+
+                }
+
+                span {
+                    @include h1($fw-4, $fs-6, $lh-3, $color-1);
+                }
+            }
+        }
+    }
+}

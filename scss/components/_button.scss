@@ -5,3 +5,45 @@
     border: $tt;
     border-color: $color-4;
 }
+
+.btn2 {
+    @extend .btn1;
+    color: $color-1;
+    width: 60%;
+}
+
+.btn3 {
+    background: #DEDDDC;
+    color: $color-1;
+    font-weight: $fw-3;
+    width: 40%;
+    border: 2px;
+    border-color: #DEDDDC;
+}
+
+.btn4 {
+    height: 50px;
+    width: 50px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background: #CCCCCC;
+    border: 2px;
+    border-color: #CCCCCC;
+
+}
+
+.btn5 {
+    @extend .btn4;
+    background: linear-gradient(180deg, #6181F3 0%, #7C97F5 99.48%);
+    color: $color-2;
+}
+
+.btn6 {
+    width: 175px;
+    height: 64px;
+    background: $color-8;
+    border: 2px;
+    border-color: $color-8;
+    color: $color-2;
+}

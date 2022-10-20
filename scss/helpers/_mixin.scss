@@ -21,3 +21,12 @@
     left: $l;
     top: $t;
 }
+
+@mixin h1 ($fw, $fs, $lh, $cl) {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $lh;
+    color: $cl;
+}
